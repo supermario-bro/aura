@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cygg
+    runtime: node
+    repo: https://github.com/legends0flearning/aura
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+version: "1"
